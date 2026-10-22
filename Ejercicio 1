@@ -1,0 +1,35 @@
+print("hola")
+#hola
+mi_edad = 18
+horas_a_llgar = 1.5
+ahorros = 1400
+
+print(type(mi_edad))
+print(type(ahorros))
+print(type(horas_a_llgar))
+
+print("***********************")
+print("Mi perfil gamer")
+
+gamertag = "FernandoDF14"
+edad = 19
+juego_favorito = "warthunder"
+nivel = 60
+horas_jugadas = 1500
+es_main_suport = False
+
+print("Gamertag", gamertag)
+print("Edad", edad)
+print("Juego Favorito", juego_favorito)
+print("Nivel", nivel)
+print("horas jugadas", horas_jugadas)
+print("¿Main support?:", es_main_suport)
+
+
+print("**** Aqui imprimo eltipo de variables de mi gamertag ***")
+print(type(gamertag))
+print(type(edad))
+print(type(juego_favorito))
+print(type(horas_jugadas))
+print(type(nivel))
+print(type(es_main_suport))

@@ -1,0 +1,14 @@
+print("\nEjercicio 3: Mi mascota en años humanos")
+print("\nMi Mactota")
+
+
+Nombre_mascota = " Chispitas es mi mascota favorita"
+tipo = "perro"
+edad_mascota = 10
+
+edad_humanan = edad_mascota * 7
+
+
+print(f"Mi {tipo} se llama {Nombre_mascota}")
+print(f"Mi {edad_mascota} años de {tipo}")
+print(f"En años humanos tendria {edad_humanan} años!\n")

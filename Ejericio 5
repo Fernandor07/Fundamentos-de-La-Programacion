@@ -1,0 +1,20 @@
+print("\n---------------")
+print("Ejercicio 5 realizado por Fernando De la Fuente\n")
+print("Ejercicio 5: Cuanto dura mi playlist?")
+
+Cancion1 = 215
+Cancion2 = 187
+Cancion3 = 240
+Cancion4 = 198
+Cancion5 = 225
+
+totoal_segundos = Cancion1 + Cancion2 + Cancion3 + Cancion4 + Cancion5
+
+minutos = totoal_segundos //60
+
+segundos = totoal_segundos % 60
+
+print("\nResultados")
+print(f"Total en segundos: {totoal_segundos}")
+print(f"Tu playlist dura {minutos} minutos con {segundos} segundos")
+print("\n++++++++++++")

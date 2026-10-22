@@ -1,0 +1,16 @@
+print("\nEjercicio 3: cuanto tiempo escucho a mi artista favorito?/")
+print("\nMi artista favorito")
+
+aritsta = "Five Finger Death Punch"
+canciones_por_dia = 25
+duracion_promedio = 5
+
+minutos_dia = canciones_por_dia * duracion_promedio
+minutos_año = minutos_dia * 365
+horas_año = minutos_año / 60
+dias_año = horas_año / 24
+
+print(f"Escuchas a {aritsta}{minutos_dia} minutos al dia")
+print(f"Al año son {minutos_año} minutos")
+print(f"Eso equivale a {horas_año:.1f} horas")
+print(f"¡0 sea {dias_año:.1f} dias completos escuchando a  {aritsta}!\n")
